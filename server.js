@@ -1,6 +1,6 @@
 /**
  * author : YATIME Marouane
- * app : PFE - TaskPulse software
+ * app : PFE - TaskPulse softwar
  */
 const dotenv = require("dotenv").config();
 const express = require("express");
@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyPaser.json());
 app.use(cors({
-    origin: ["http://localhost:3000", "https://stockpulse-ten.vercel.app"],
+    origin: ["http://localhost:3000", "https://stockpulse-ten.vercel.app/"],
     credentials: true,
 }));
 
