@@ -24,8 +24,8 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyPaser.json());
 app.use(cors({
-    origin: ["http://localhost:3000", "https://stockpulse-ten.vercel.app/"],
-    credentials: true
+    origin: ["http://localhost:3000", "https://stockpulse-ten.vercel.app"],
+    credentials: true,
 }));
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
