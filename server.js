@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyPaser.json());
 app.use(cors({
-    origin: ["http://localhost:3000", "https://stock-pulse-app.vercel.app"],
+    origin: [https://stock-pulse-app.vercel.app"],
     credentials: true,
 }));
 
